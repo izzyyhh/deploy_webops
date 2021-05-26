@@ -44,6 +44,7 @@ server "vm-green.multimediatechnology.at", user: "deploy", roles: %w{app db web}
  set :ssh_options, {
    keys: %w(/home/izzyu20/.ssh/id_rsa),
    forward_agent: true,
+   port: 5412
    #auth_methods: %w(password)
  }
 #
