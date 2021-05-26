@@ -55,7 +55,7 @@ server "vm-green.multimediatechnology.at",
   roles: %w{web app},
   ssh_options: {
     user: "deploy", # overrides user setting above
-    keys: %w(/home/izzyu20/.ssh/ssh-ed25519),
+    keys: %w(/home/izzyu20/.ssh/id_ed25519),
     forward_agent: false,
     auth_methods: %w(publickey),
     port: 5412
