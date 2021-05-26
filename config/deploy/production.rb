@@ -58,6 +58,6 @@ server "vm-green.multimediatechnology.at",
     keys: %w(/home/izzyu20/.ssh/ssh-ed25519),
     forward_agent: false,
     auth_methods: %w(publickey),
-    port: "5412"
+    port: 5412
     # password: "please use keys"
   }
